@@ -1,5 +1,5 @@
 <script>
-  // import { current } from './store.js';
+  import { current } from './store.js';
   import Tab from './lib/Tab.svelte';
   import TabContent from './lib/TabContent.svelte';
 

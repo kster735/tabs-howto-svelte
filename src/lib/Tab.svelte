@@ -6,12 +6,12 @@
 
 
 <div class="tab" >
-  <TabLink label="London" />
-  <TabLink label="Paris" />
-  <TabLink label="Tokyo" />
-  <TabLink label="New York"/>
-  <TabLink label="Athens" />
-  <TabLink label="Rome" />
+  <TabLink label="London" on:click = { ()=> $current = "London"}/>
+  <TabLink label="Paris" on:click = { ()=> $current = "Paris"} />
+  <TabLink label="Tokyo" on:click = { ()=> $current = "Tokyo"}/>
+  <TabLink label="New York" on:click = { ()=> $current = "New York"}/>
+  <TabLink label="Athens" on:click = { ()=> $current = "Athens"}/>
+  <TabLink label="Rome" on:click = { ()=> $current = "Rome"}/>
 </div>
 
 

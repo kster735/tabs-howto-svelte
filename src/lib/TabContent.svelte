@@ -1,10 +1,13 @@
 <script>
+  import {current} from '../store.js';
   export let src;
   export let alt;
 </script>
 
 
-<div class="image">
+<div
+  class = { $current === alt ? 'image' : 'hidden' }
+>
   <img {src} {alt}>
 </div>
 
@@ -20,6 +23,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .hidden {
+    display: none;
   }
 
 </style>
